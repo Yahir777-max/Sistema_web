@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    
+    font-family: "Nunito", sans-serif;
+    background: rgb(151, 103, 160);
+    
+}
+h1
+ {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(25, 26, 25);
+}
+#datetime
+{
+    text-align: center;
+   font-size: 24px;
+   font-weight: bold;
+   color: rgb(235, 235, 235) ;
+}
+.container
+{
+    width: 850px;
+    background: white;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+.acceso{
+    color:rgb(118, 6, 223);
+}
+.dni{
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+input{
+    width: 800px;
+    padding: 10px;
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 20px;
+
+}
+.entrada {
+    background:rgb(230, 30, 16);
+    width: 400px;
+    padding: 25px 35px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.salida{
+    background: blue;
+    width: 400px;
+    padding: 25px 35px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
